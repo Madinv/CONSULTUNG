@@ -2,30 +2,53 @@
 .img{
     width: 500px;
     height: 350px;
-    padding: 40px 40px;
+    margin: 20px 20px;
+}
+.img1{
+    width: 500px;
+    height: 400px;
+    margin: 20px 20px;
 }
 .gif{
     position: absolute;
-    top: 20px;
+    top: 10px;
+    background-position: center top;
+    position: absolute;
+    left: auto;
+    width: 56px;
+    height: 56px;
+    margin-bottom: 10px;
 }
-.row{
-    position: relative;
-}
-.col-lg-4{
+
+.row2{
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    gap: 20px 40px;
-    width:300px ;
-    height: 700px; 
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    padding: 5px 10px;
+}
+.lead{
+      text-align: justify;
+      font-size: 20px;
+      padding: 10px 5px;
+}
+
+.col-lg-4{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 600px;
+   box-sizing: border-box;
 }
 
 .fw-normal{
     text-align: center;
     font-weight: bold;
-    font-size: 32px;
-    padding: 20px 20px;
+    font-size: 28px;
+    padding-top: 10px;
 }
 
 .container-header{
@@ -38,4 +61,28 @@
 .container.marketing{
     background-color: #f5faf8;
 
+}
+.col-md-7{
+    max-width: 300px;
+    
+}
+.row.featurette{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-image :url(image/gradient-navy-blue-digital-grid-wallpaper.jpg);
+    background-repeat: no-repeat;
+    opacity: 90%;
+    padding:30px 20px;
+    margin-bottom: 30px;
+}
+.display-5.fw-bold.text-white{
+    padding-bottom: 20px;
+}
+.fs-5.mb-4{
+    padding-bottom: 20px;
+}
+col-md-10.mx-auto.col-lg-5{
+    width: 400px;
+    background-color: aqua;
 }
